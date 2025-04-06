@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - SVG Element</h1>
+
+    <svg
+      width="300"
+      height="300"
+      viewBox="0 0 300 300"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Irregular Shape -->
+      <path
+        d="M50,20 Q150,-20 250,50 T250,250 Q150,320 50,250 T50,50"
+        fill="#722F37"
+        stroke="#5A1F29"
+        stroke-width="5"
+      />
+
+      <!-- Text -->
+      <text
+        x="50%"
+        y="50%"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="white"
+        stroke="black"
+        stroke-width="1.5"
+        text-anchor="middle"
+        alignment-baseline="middle"
+      >
+        TechnoWines
+      </text>
+    </svg>
+
+    <svg
+      width="300"
+      height="300"
+      viewBox="0 0 300 300"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Fancy Circle Shape -->
+      <path
+        d="M150,20 C210,20 280,80 280,150 C280,220 210,280 150,280 C90,280 20,220 20,150 C20,80 90,20 150,20 Z"
+        fill="#722F37"
+        stroke="#5A1F29"
+        stroke-width="5"
+      />
+
+      <!-- Text -->
+      <text
+        x="50%"
+        y="50%"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="white"
+        stroke="black"
+        stroke-width="1.5"
+        text-anchor="middle"
+        alignment-baseline="middle"
+      >
+        TechnoWines
+      </text>
+    </svg>
+
+    <svg
+      width="300"
+      height="300"
+      viewBox="0 0 300 300"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Defines the SVG canvas size as 300x300 and sets the coordinate system -->
+      <defs>
+        <radialGradient id="wineGradient" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#9B2F46" />
+          <stop offset="100%" stop-color="#4E1B25" />
+        </radialGradient>
+      </defs>
+      <path
+        d="M150,20 C210,20 280,80 280,150 C280,220 210,280 150,280 C90,280 20,220 20,150 C20,80 90,20 150,20 Z"
+        fill="url(#wineGradient)"
+        stroke="#5A1F29"
+        stroke-width="5"
+      />
+
+      <!-- Fancy circular shape with curves using cubic Bezier commands -->
+      <!-- The shape is filled with a wine color gradient and outlined with a darker stroke -->
+
+      <!-- Text -->
+      <text
+        x="50%"
+        y="50%"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="white"
+        stroke="black"
+        stroke-width="1.5"
+        text-anchor="middle"
+        alignment-baseline="middle"
+      >
+        TechnoWines
+      </text>
+    </svg>
+
+    <svg
+      width="300"
+      height="300"
+      viewBox="0 0 300 300"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Defines the SVG canvas size as 300x300 and sets the coordinate system -->
+
+      <defs>
+        <!-- Defines a radial gradient with an ID "wineGradient" -->
+        <!-- The gradient starts with a lighter wine color (#9B2F46) at the center and transitions to a darker wine color (#4E1B25) at the edges -->
+        <radialGradient id="wineGradient" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#9B2F46" />
+          <stop offset="100%" stop-color="#4E1B25" />
+        </radialGradient>
+      </defs>
+
+      <!-- Draws a fancy circular shape using a cubic Bezier curve -->
+      <!-- The shape follows a path that defines a smooth curved border -->
+      <!-- The fill uses the radial gradient defined above -->
+      <!-- The stroke color is a dark shade of wine (#5A1F29) with a stroke width of 5 -->
+      <path
+        d="M150,20 C210,20 280,80 280,150 C280,220 210,280 150,280 C90,280 20,220 20,150 C20,80 90,20 150,20 Z"
+        fill="url(#wineGradient)"
+        stroke="#5A1F29"
+        stroke-width="5"
+      />
+
+      <!-- Text element to display "TechnoWines" in the center of the shape -->
+      <!-- Positioned at 50% width and 50% height to center the text -->
+      <!-- Font size is set to 30, and the font family is Arial or sans-serif -->
+      <!-- The text color is white, with a black stroke around the letters for better visibility -->
+      <!-- text-anchor="middle" centers the text horizontally, and alignment-baseline="middle" centers it vertically -->
+      <text
+        x="50%"
+        y="50%"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="white"
+        stroke="black"
+        stroke-width="1.5"
+        text-anchor="middle"
+        alignment-baseline="middle"
+      >
+        TechnoWines
+      </text>
+    </svg>
+
+    <svg
+      width="300"
+      height="300"
+      viewBox="0 0 300 300"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Defines the SVG canvas size as 300x300 and sets the coordinate system -->
+
+      <defs>
+        <!-- Defines a radial gradient with an ID "wineGradient" -->
+        <!-- The gradient starts with a lighter wine color (#9B2F46) at the center and transitions to a darker wine color (#4E1B25) at the edges -->
+        <radialGradient id="wineGradient" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#9B2F46" />
+          <stop offset="100%" stop-color="#4E1B25" />
+        </radialGradient>
+      </defs>
+
+      <!-- Draws a fancy circular shape using a cubic Bezier curve -->
+      <!-- The shape follows a path that defines a smooth curved border -->
+      <!-- The fill uses the radial gradient defined above -->
+      <!-- The stroke color is a dark shade of wine (#5A1F29) with a stroke width of 5 -->
+      <path
+        d="M150,20 C210,20 280,80 280,150 C280,220 210,280 150,280 C90,280 20,220 20,150 C20,80 90,20 150,20 Z"
+        fill="url(#wineGradient)"
+        stroke="#5A1F29"
+        stroke-width="5"
+      />
+
+      <!-- Control Points Visualization -->
+      <!-- Lines connecting control points to show how the Bezier curves are formed -->
+      <line
+        x1="150"
+        y1="20"
+        x2="210"
+        y2="20"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="210"
+        y1="20"
+        x2="280"
+        y2="80"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="280"
+        y1="80"
+        x2="280"
+        y2="150"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="280"
+        y1="150"
+        x2="280"
+        y2="220"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="280"
+        y1="220"
+        x2="210"
+        y2="280"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="210"
+        y1="280"
+        x2="150"
+        y2="280"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="150"
+        y1="280"
+        x2="90"
+        y2="280"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="90"
+        y1="280"
+        x2="20"
+        y2="220"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="20"
+        y1="220"
+        x2="20"
+        y2="150"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="20"
+        y1="150"
+        x2="20"
+        y2="80"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="20"
+        y1="80"
+        x2="90"
+        y2="20"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+      <line
+        x1="90"
+        y1="20"
+        x2="150"
+        y2="20"
+        stroke="blue"
+        stroke-dasharray="5,5"
+      />
+
+      <!-- Small circles at control points -->
+      <circle cx="210" cy="20" r="5" fill="red" />
+      <circle cx="280" cy="80" r="5" fill="red" />
+      <circle cx="280" cy="150" r="5" fill="red" />
+      <circle cx="280" cy="220" r="5" fill="red" />
+      <circle cx="210" cy="280" r="5" fill="red" />
+      <circle cx="150" cy="280" r="5" fill="red" />
+      <circle cx="90" cy="280" r="5" fill="red" />
+      <circle cx="20" cy="220" r="5" fill="red" />
+      <circle cx="20" cy="150" r="5" fill="red" />
+      <circle cx="20" cy="80" r="5" fill="red" />
+      <circle cx="90" cy="20" r="5" fill="red" />
+      <circle cx="150" cy="20" r="5" fill="red" />
+
+      <!-- Text element to display "TechnoWines" in the center of the shape -->
+      <!-- Positioned at 50% width and 50% height to center the text -->
+      <!-- Font size is set to 30, and the font family is Arial or sans-serif -->
+      <!-- The text color is white, with a black stroke around the letters for better visibility -->
+      <!-- text-anchor="middle" centers the text horizontally, and alignment-baseline="middle" centers it vertically -->
+      <text
+        x="50%"
+        y="50%"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="white"
+        stroke="black"
+        stroke-width="1.5"
+        text-anchor="middle"
+        alignment-baseline="middle"
+      >
+        TechnoWines
+      </text>
+    </svg>
+  </body>
+</html>

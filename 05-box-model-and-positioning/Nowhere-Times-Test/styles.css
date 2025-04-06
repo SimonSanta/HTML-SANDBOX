@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.global-entry {
+    /* Flexbox */
+    /* Centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Background */
+    /* Background Color */
+    /* background-color: ; */
+
+    background-image: url('./hero.jpg');
+    background-repeat: no-repeat;
+    /* Covers the all page */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: goldenrod;
+}
+
+.box {
+    /* All box classes */
+    border-width: 3px;
+    border-radius: 10px;
+    border-top: solid goldenrod;
+    border-bottom: solid red;
+    border-right: solid goldenrod;;
+    border-left: solid red;
+
+    padding: 10px;
+    margin: 10px;
+    max-width: 1000px;
+
+}
+
+.box.intro {
+    margin-bottom: 50%;
+}
+
+.box.intro h3 {
+    font-style: italic;
+}
+
+.box.crew {
+    color: whitesmoke;
+}
+
+.box.crew h3 {
+    font-style: italic;
+}
+
+/* .image-nwt {
+    width: 20%;
+} */

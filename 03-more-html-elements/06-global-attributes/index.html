@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Global Attributes</h1>
+
+    <!-- Class -->
+    <h2 class="text-xl">Heading 1</h2>
+
+    <!-- id -->
+    <h2 id="unique-main-heading">Unique id Heading</h2>
+
+    <!-- Style, but not best practise, normally in CSS -->
+    <p style="color: red; font-size: 20px">A red paragraph</p>
+
+    <!-- accesskey and title-->
+    <button
+      title="Home Button"
+      accesskey="h"
+      onclick="alert('Home Button Clicked')"
+    >
+      Home
+    </button>
+
+    <!-- tab index : switch to the specific element in the order of the index -->
+
+    <button tabindex="3">Button 1</button>
+    <button tabindex="1">Button 2</button>
+    <button tabindex="2">Button 3</button>
+
+    <!-- contenteditable -->
+    <div contenteditable="true">This is an editable div element</div>
+
+    <!-- draggable -->
+    <div draggable="true">This is draggable div</div>
+
+    <!-- autofocus : put the cursor in the text section-->
+    <input type="text" autofocus />
+  </body>
+</html>
